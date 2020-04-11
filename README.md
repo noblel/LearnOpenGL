@@ -9,6 +9,6 @@
 
 ´óÖÂÅäÖÃÈçÏÂ
 
-![](.\setting_1.png)
+![](https://raw.githubusercontent.com/noblel/LearnOpenGL/master/setting_1.png)
 
-![](.\setting_2.png)
+![](https://raw.githubusercontent.com/noblel/LearnOpenGL/master/setting_2.png)
