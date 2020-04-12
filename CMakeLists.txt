@@ -7,8 +7,10 @@ IF (NOT CMAKE_BUILD_TYPE)
     SET(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build (Debug or Release)" FORCE)
 ENDIF (NOT CMAKE_BUILD_TYPE)
 
-add_executable(LearnOpenGL
-        src/createwindow.cpp)
+add_executable(window
+        src/window/createwindow.cpp)
+add_executable(triangle
+        src/triangle/triangle.cpp)
 
 # find the required packages
 find_package(glfw3 3.3 REQUIRED)
@@ -21,7 +23,8 @@ set(LIBS ${LIBS} GLAD)
 
 add_library(GLAD "src/glad.c")
 
-target_link_libraries(LearnOpenGL ${LIBS})
+target_link_libraries(window ${LIBS})
+target_link_libraries(triangle ${LIBS})
 
 
 
