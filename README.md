@@ -1,13 +1,13 @@
-# 配置
+# 閰嶇疆
 
 ## vs2019
 
-1. 添加项目的include为头文件目录
-2. 添加项目的libs为动态库目录
-3. 添加项目的src为源文件目录
-4. 添加opengl32.lib和glfw3.lib
+1. 娣诲姞椤圭洰鐨刬nclude涓哄ご鏂囦欢鐩綍
+2. 娣诲姞椤圭洰鐨刲ibs涓哄姩鎬佸簱鐩綍
+3. 娣诲姞椤圭洰鐨剆rc涓烘簮鏂囦欢鐩綍
+4. 娣诲姞opengl32.lib鍜実lfw3.lib
 
-大致配置如下
+澶ц嚧閰嶇疆濡備笅
 
 ![](https://raw.githubusercontent.com/noblel/LearnOpenGL/master/setting_1.png)
 
